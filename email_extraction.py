@@ -9,8 +9,8 @@ import dotenv
 
 def attachment_download(path):
 
-    email_user = 'matrixresumescanner@gmail.com'
-    email_pass = 'mcneoemafcnmrvfv'
+    email_user = ''
+    email_pass = ''
     mail = imaplib.IMAP4_SSL("imap.gmail.com", 993)
     mail.login(email_user, email_pass)
     mail.select('Inbox')

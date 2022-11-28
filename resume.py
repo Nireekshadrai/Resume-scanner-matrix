@@ -21,7 +21,7 @@ def scanner(data,choice,path):
                         print(data[i])
                         print(choice[i])
                         res=condition_checker.check_condition(res_dct,data[i],choice[i])
-                        print("res ",res)
+                        
                         
                                     
                         
@@ -30,7 +30,7 @@ def scanner(data,choice,path):
                                 return result
                         elif res:
                                 count=count+1
-                                print(text,count)                
+                                
                                     
                                     
                     if count==len(choice):
